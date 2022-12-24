@@ -3,7 +3,7 @@ const slider = {
   progress: 280,
 };
 
-let start = 0;
+const start = new Date();
 
 window.addEventListener("DOMContentLoaded", () => {
   console.log(`DOMContentLoaded-Event; Time: ${Date.now() - start} ms`);
